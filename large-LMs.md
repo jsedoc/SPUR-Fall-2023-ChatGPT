@@ -64,7 +64,7 @@ and generating again. Here's an example of what it generated when I ran it.
 <center>
     <img width="1576" alt="image" src="https://user-images.githubusercontent.com/5974598/219900004-8d299fef-8f74-4de7-aa81-1e03a2fad9b7.png" class="img-responsive"/>
 </center>
-Here's another [impressive example of what GPT-3 knows about Arun.]<img width="1382" alt="image" src="https://user-images.githubusercontent.com/5974598/219900943-15f02056-6660-4097-94e4-8e2c85dcab29.png">
+Here's another [impressive example of what GPT-3 knows about Professor Sundararajan.]<img width="1382" alt="image" src="https://user-images.githubusercontent.com/5974598/219900943-15f02056-6660-4097-94e4-8e2c85dcab29.png">
 
 There are several controls on the right hand side of the playground.  These are
 * Engine - GPT-3 comes in 4 different sized models. As the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
