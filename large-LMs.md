@@ -1,9 +1,6 @@
 ---
 materials:
     - 
-      name: Colab Notebook for Large Language Models with the OpenAI API
-      url: https://colab.research.google.com/github/artificial-intelligence-class/artificial-intelligence-class.github.io/blob/master/homeworks/large-LMs/Large_Language_Models.ipynb
-submission_link: XXX
 readings:
 - 
    title: OpenAI API Documentation
@@ -46,7 +43,7 @@ Use the OpenAI API to understand the current state-of-the-art in large language 
 
 You should [sign up for the OpenAI API](https://beta.openai.com/signup), which lets you use GPT-3 a large, neural language model like the ones that we learned about in lecture.  
 
-The OpenAI API is a paid service.  OpenAI will give you $18 in credit when you first create your account. For this assignment, the cost should be less than that. For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://beta.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
+The OpenAI API is a paid service.  OpenAI will give you $18 in credit when you first create your account. For this research activity, the cost should be less than that. For the first part, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://beta.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
 
 
 First, let's learn some basic terminology: 
@@ -67,7 +64,7 @@ and generating again. Here's an example of what it generated when I ran it.
 <center>
     <img width="1576" alt="image" src="https://user-images.githubusercontent.com/5974598/219900004-8d299fef-8f74-4de7-aa81-1e03a2fad9b7.png" class="img-responsive"/>
 </center>
-Here's another [impressive example of what GPT-3 knows about the field of NLP.](openai-playground-screenshot-2.png)
+Here's another [impressive example of what GPT-3 knows about Arun.]<img width="1382" alt="image" src="https://user-images.githubusercontent.com/5974598/219900943-15f02056-6660-4097-94e4-8e2c85dcab29.png">
 
 There are several controls on the right hand side of the playground.  These are
 * Engine - GPT-3 comes in 4 different sized models. As the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
@@ -75,13 +72,21 @@ There are several controls on the right hand side of the playground.  These are
 2. Babbage
 3. Curie
 4. Davinci - highest quality and highest cost model.
+
+** Why the first two are called Ada and Babbage? **
+
+[Here's a link to mode documentation on the models](https://platform.openai.com/docs/models/gpt-3).
+
+Other parameters are:
 * Response length - what's the maximum length (in tokens) that the model will output?
 * Stop sequence - you can specify what tokens should cause the model to stop generating.  You can use the newline character, or any special sequence that you designate. 
 * Show probabilities - allows you to highlight the tokens giving them different colors for how probable the models think they are.
 * Temperature and Top P sampling - control how the model samples tokens from its distribution.
 1. Setting Temperature to 0 will cause the model to produce the highest probability output.  Setting it closer to 1 will increase its propensity to create more diverse output.
-2. Top P sampling controls the nucleus sampling, where the model samples from only the top of the distribution.
-* Frequency Penalty and Presence Penalty - two parameters that help to limit how much repetition there is in the model's output.
+1. Top P sampling controls the nucleus sampling, where the model samples from only the top of the distribution.
+* [Frequency Penalty and Presence Penalty](https://platform.openai.com/docs/api-reference/parameter-details) - two parameters that help to limit how much repetition there is in the model's output.
+
+
 
 ### Prompt design
 
