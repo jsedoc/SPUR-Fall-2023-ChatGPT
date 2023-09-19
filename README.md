@@ -1,1 +1,1 @@
-# SPUR-Spring-2023-ChatGPT
+# SPUR-Fall-2023-ChatGPT
