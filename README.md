@@ -1,4 +1,4 @@
-# SPUR-Fall-2023-ChatGPT
+# SPUR Fall 2023: Trusting ChatGPT: What Makes Humans Trust Large-Language Models
 
 ## Suggested Videos
 
